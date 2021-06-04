@@ -360,6 +360,7 @@ footer .logo{
 @media (max-width: 930px){
     .name{
         font-size: 18px;
+        display: block;
     }
 
     .content{
