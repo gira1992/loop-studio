@@ -193,12 +193,18 @@ button:hover{
     justify-items: stretch;
 }
 
-.card{
+.card-container{
     position: relative;
+    transition: all 0.2s;
 }
+
 
 .card img{
     width: 100%;
+}
+
+.card-container:hover{
+    opacity: 0.9;
 }
 
 .name{
@@ -213,7 +219,6 @@ button:hover{
     text-align: left;
     font-family: 'Alata', sans-serif;
     max-width: 9ch;
-    
 }
 
 #mobile-button{
