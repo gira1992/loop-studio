@@ -7,6 +7,15 @@ font-family: 'Josefin Sans', sans-serif; */
     box-sizing: border-box;
 }
 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
 html,body
 {
     width: 100%;
@@ -268,6 +277,11 @@ footer .logo{
     background-color: rgba(0,0,0,0.5);
     z-index: 10000;
 } */
+
+.social-container:hover, .company-info li:hover{
+    cursor: pointer;
+}
+
 
 
 /* MOBILE NAV BAR */
